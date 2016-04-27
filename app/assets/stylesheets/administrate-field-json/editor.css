@@ -1,0 +1,8 @@
+.administrate-jsoneditor textarea{
+  display: none;
+}
+
+table.jsoneditor-search input {
+  padding: 0;
+  line-height: 20px; 
+}
