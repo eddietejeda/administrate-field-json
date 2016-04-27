@@ -2,5 +2,7 @@
 
 A plugin to show and edit JSON objects within [Administrate].
 
-## FAQs
+## Screenshot
+
+![Image of Screenshot](https://raw.githubusercontent.com/eddietejeda/administrate-field-json/master/screenshot.png)
 
