@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
   gem.version = Administrate::Field::JSON::VERSION
   gem.authors = ["Eddie A Tejeda"]
   gem.email = ["eddie@codeforamerica.org"]
-  gem.homepage = "https://github.com/eddietejeda/administrate_field_json"
+  gem.homepage = "https://github.com/eddietejeda/administrate-field-json"
   gem.summary = "JSON field plugin for Administrate"
   gem.description = gem.summary
   gem.license = "MIT"
