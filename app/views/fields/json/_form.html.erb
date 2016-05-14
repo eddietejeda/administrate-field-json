@@ -25,7 +25,7 @@ This partial renders an JSON database into structured form
 
 
 <div class="field-unit__field administrate-jsoneditor">
-<%= f.text_area field.attribute, :value => field.data.to_json.html_safe  %>
+<%= f.text_area field.attribute, :value => field.data.to_json.html_safe.squish   %>
 </div>
 
 </body>
