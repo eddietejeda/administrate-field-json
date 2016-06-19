@@ -1,11 +1,12 @@
-require "administrate/engine"
 require "administrate/field/base"
+require 'rails/engine'
 require "rails"
+require "administrate/engine"
 
 module Administrate
   module Field
     class JSON < Administrate::Field::Base
-      VERSION = "0.0.1"
+      VERSION = "0.0.2"
 
       class Engine < ::Rails::Engine
         Administrate::Engine.add_javascript "administrate-field-json"
