@@ -9,9 +9,8 @@ module Administrate
       VERSION = "0.0.2"
 
       class Engine < ::Rails::Engine
-        Administrate::Engine.add_javascript "administrate-field-json"
-        Administrate::Engine.add_stylesheet "administrate-field-json"
-
+        Administrate::Engine.add_javascript "administrate-field-json/application"
+        Administrate::Engine.add_stylesheet "administrate-field-json/application"
         engine_root = self.root
 
         isolate_namespace Administrate
