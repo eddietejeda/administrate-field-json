@@ -17,6 +17,7 @@ module Administrate
         isolate_namespace Administrate
         config.to_prepare do
           Rails.application.config.assets.paths << engine_root.join("vendor", "assets", "images")
+          Rails.application.config.assets.precompile += ['administrate-field-json.js','administrate-field-json.css']
         end
       end
     end
