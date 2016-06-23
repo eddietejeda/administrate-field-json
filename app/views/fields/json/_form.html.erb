@@ -5,20 +5,6 @@ This partial renders an JSON database into structured form
 %>
 
 
-<% 
-# @TODO: this is currently called many times as we iterate through
-# the different elements. But we should find a place to put this
-# include so that it only gets called once. 
-# Currently, this flush: true option is what prevents the js/css from
-# being printed many times on the page
-
-%>
-<% content_for :javascript, flush: true do %> 
-<%= javascript_include_tag '/assets/administrate-field-json.js' %>
-<%= stylesheet_link_tag '/assets/administrate-field-json.css' %>
-<% end %>
-
-
 <div class="field-unit__label">
   <%= f.label field.attribute %>
 </div>
