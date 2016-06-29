@@ -2,6 +2,10 @@
   display: none;
 }
 
+table.jsoneditor-tree td {
+  overflow: visible;
+}
+
 table.jsoneditor-search input {
   padding: 0;
   line-height: 20px; 
