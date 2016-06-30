@@ -6,17 +6,23 @@ $(function() {
     
     var options = {    
       onChange: function(){
-        var updated_json = editor.get();
-        
-        console.log(updated_json);
+        try {
+          var updated_json = editor.get();
+        } catch(err) {
+          console.log(err);
+        }
+
         $current.val(JSON.stringify(updated_json));
-        
-      }
+      },
+      onError: function (err) {
+        alert(err.toString());
+      },
+      mode: 'tree',
+      modes: ['text', 'tree'],
     };
+
     var editor = new JSONEditor(this, options);
 
     editor.set(JSON.parse($current.val()));
-    
-
   });
 });

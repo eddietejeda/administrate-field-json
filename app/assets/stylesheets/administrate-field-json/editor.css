@@ -1,5 +1,9 @@
-.administrate-jsoneditor textarea{
+.administrate-jsoneditor textarea {
   display: none;
+}
+
+.jsoneditor-mode-text textarea {
+  display: block;
 }
 
 table.jsoneditor-tree td {
