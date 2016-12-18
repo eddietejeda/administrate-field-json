@@ -1,10 +1,8 @@
 $:.push File.expand_path("../lib", __FILE__)
 
-require "administrate/field/json"
-
 Gem::Specification.new do |gem|
   gem.name = "administrate-field-json"
-  gem.version = Administrate::Field::JSON::VERSION
+  gem.version = "0.0.3"
   gem.authors = ["Eddie A Tejeda"]
   gem.email = ["eddie@codeforamerica.org"]
   gem.homepage = "https://github.com/eddietejeda/administrate-field-json"
