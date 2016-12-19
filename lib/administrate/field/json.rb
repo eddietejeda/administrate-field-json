@@ -6,8 +6,6 @@ require "administrate/engine"
 module Administrate
   module Field
     class JSON < Administrate::Field::Base
-      VERSION = "0.0.3"
-
       class Engine < ::Rails::Engine
         Administrate::Engine.add_javascript "administrate-field-json/application"
         Administrate::Engine.add_stylesheet "administrate-field-json/application"
