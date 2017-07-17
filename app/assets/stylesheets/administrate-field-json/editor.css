@@ -12,5 +12,9 @@ table.jsoneditor-tree td {
 
 table.jsoneditor-search input {
   padding: 0;
-  line-height: 20px; 
+  line-height: 20px;
+}
+
+textarea.jsoneditor-text {
+  resize: vertical;
 }
